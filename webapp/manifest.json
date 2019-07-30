@@ -15,11 +15,8 @@
 		},
 		"dataSources": {
 			"catalogService": {
-				"uri": "/sap/opu/odata/iwfnd/catalogservice/",
-				"type": "OData",
-				"settings": {
-					"odataVersion": "2.0"
-				}
+				"uri": "/sap/opu/odata/sap/SEPMRA_PROD_MAN/",
+				"type": "OData"
 			}
 		}
 	},

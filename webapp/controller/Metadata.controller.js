@@ -50,7 +50,7 @@ sap.ui.define([
 			// load northwind demo service
 			// http://services.odata.org/V2/Northwind/Northwind.svc
 			if (!this._bUseCatalogService) {
-				this._loadService("/northwind/V2/Northwind/Northwind.svc/", "Northwind v2");
+				this._loadService("http://ims.saplabs.com:50017/sap/opu/odata/sap/SEPMRA_PROD_MAN/", "SEPMRA_PROD_MAN");
 			}
 		},
 

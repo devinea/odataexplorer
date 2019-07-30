@@ -1,6 +1,5 @@
 {
 	"welcomeFile": "/webapp/index.html",
-	"authenticationMethod": "none",
 	"routes": [{
 		"path": "/resources",
 		"target": {
@@ -21,7 +20,7 @@
 		"path": "/sap/opu/odata",
 		"target": {
 			"type": "destination",
-			"name": "SAPGW",
+			"name": "SEPMRA_PROD_MAN",
 			"entryPath": "/sap/opu/odata"
 		},
 		"description": "SAPGW System with activated iwfnd/catalogservice"
@@ -29,17 +28,10 @@
 		"path": "/northwind",
 		"target": {
 			"type": "destination",
-			"name": "northwind",
+			"name": "SEPMRA_PROD_MAN",
 			"entryPath": "/"
 		},
 		"description": "Northwind v2 Demo OData service"
-	}],
-	"securityConstraints": [{
-		"permission": "AccessApplicationDescriptor",
-		"description": "Access application descriptor",
-		"protectedPaths": [
-			"/neo-app.json"
-		]
 	}],
 	"sendWelcomeFileRedirect": true
 }

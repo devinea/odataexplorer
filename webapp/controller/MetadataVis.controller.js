@@ -25,7 +25,7 @@ sap.ui.define([
 				arrowPosition: "End",
 				arrowOrientation: "ParentOf",
 				nodeSpacing: 40,
-				nodePlacement: "Simple",
+				nodePlacement: "BrandesKoepf",
 				mergeEdges: false
 			});
 			this.setModel(oViewModel, "ui");
